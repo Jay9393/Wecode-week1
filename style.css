@@ -65,17 +65,14 @@ header div.icons {
 }
 
 .player {
+    display: flex;
     text-align: center;
     background-color: black;
-}
-.player video{
-    width: 100%;
-    height: 100%;
-    max-width: 1000px;
+    height: 280px;
 }
 .player iframe{
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
     max-width: 1000px;    
 }
 
