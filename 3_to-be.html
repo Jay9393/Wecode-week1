@@ -10,17 +10,30 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c7926bad60.js" crossorigin="anonymous">
     </script>
+    <script src="main.js" defer></script>
 </head>
 <body>
     <header>
         <div class="logo">
+                <i class="fas fa-bars"></i>
             <a href="https://jay9393.github.io/Wecode-week1/index.html"><i class="fab fa-youtube"></i></a>
             <a href="https://jay9393.github.io/Wecode-week1/index.html"><span class="title">Wetube</span></a>
         </div>
         <div class="icons">
             <i class="fas fa-search"></i>             
         </div>
-        
+        <div class="menuWrap" id="menuSlide">
+            <nav id="menu">
+                <ul class="menuList">
+                    <li>홈</li>
+                    <li>탐색</li>
+                    <li>구독</li>
+                    <li>보관함</li>
+                    <li>시청기록</li>
+                    <li>나중에 볼 동영상</li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="player">
@@ -48,8 +61,8 @@
         </div>
             <div class="actions">
                 
-                <button id='button1'><i class="fas fa-thumbs-up"></i><span id='count1'>19</span></button>
-                <button id='button2'><i class="fas fa-thumbs-down"></i><span id='count2'>1</span></button>
+                    <button id='button1'><i class="fas fa-thumbs-up"></i><span id='count1'>19</span></button>
+                    <button id='button2'><i class="fas fa-thumbs-down"></i><span id='count2'>1</span></button>
                     <button><i class="fas fa-share-square"></i><span>공유</span></button>
                     <button><i class="fas fa-plus"></i><span>저장</span></button>
                     <button><i class="fab fa-font-awesome-flag"></i><span>신고하지마</span></button>
