@@ -49,6 +49,28 @@ header {
     font-size: 24px;
 }
 
+.menuWrap {
+    display:flex;
+    text-align: center;
+    font-size: medium;
+    background-color: rgb(26, 24, 24, 0.7);
+    color: rgb(243, 243, 243);
+    position: fixed;
+    top: 0;
+    left: -200px;
+    z-index: 400; 
+    width: 200px;
+    height: 100%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    transition: left 0.3s ease-in-out;
+}
+
+header .logo .fa-bars{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
 header .logo .fa-youtube{
     margin: var(--padding);
     color: var(--red-color);
@@ -135,7 +157,7 @@ button:focus {
     flex-direction: column;
 }
 
-.channel .metadata .info .subscribers{
+.channel .metadata .info #subscribers{
     color: rgb(87,87,87);
     font-size: var(--font-small);
 }
